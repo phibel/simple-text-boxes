@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+rm simple-text-boxes.zip
+cd ../../
+zip -r simple-text-boxes/build/simple-text-boxes.zip simple-text-boxes -x "simple-text-boxes/.git/*" "simple-text-boxes/.gitignore" "simple-text-boxes/build/*"
+
